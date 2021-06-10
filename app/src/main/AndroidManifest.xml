@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeScreen"></activity>
+
+        <activity android:name=".ophtamologists"></activity>
+        <activity android:name=".psychologists" />
+        <activity android:name=".dentists" />
+        <activity android:name=".cardiologists" />
+        <activity android:name=".MakeAppointment" />
+        <activity android:name=".doctors" />
+        <activity android:name=".categories" />
+        <activity android:name=".HomeScreen" />
         <activity android:name=".Login" />
         <activity android:name=".Register" />
         <activity android:name=".MainActivity">
