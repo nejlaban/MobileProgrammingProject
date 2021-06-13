@@ -5,21 +5,21 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="MyHealth"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".ophtamologists"></activity>
-        <activity android:name=".psychologists" />
-        <activity android:name=".dentists" />
-        <activity android:name=".cardiologists" />
+        <activity android:name=".ophtamologists" android:parentActivityName=".doctors"></activity>
+        <activity android:name=".psychiatrists" android:parentActivityName=".doctors" />
+        <activity android:name=".dentists" android:parentActivityName=".doctors"/>
+        <activity android:name=".cardiologists" android:parentActivityName=".doctors"/>
         <activity android:name=".MakeAppointment" />
-        <activity android:name=".doctors" />
-        <activity android:name=".categories" />
-        <activity android:name=".HomeScreen" />
-        <activity android:name=".Login" />
-        <activity android:name=".Register" />
+        <activity android:name=".doctors" android:parentActivityName=".HomeScreen"/>
+        <activity android:name=".categories" android:parentActivityName=".Login"/>
+        <activity android:name=".HomeScreen" android:parentActivityName=".Login" />
+        <activity android:name=".Login" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Register" android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

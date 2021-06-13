@@ -22,9 +22,9 @@ public class ophtamologists extends AppCompatActivity {
 
         ArrayList<Doctor> arrayList = new ArrayList<>();
 
-        arrayList.add(new Doctor(R.drawable.doctor2, "John Fisher", "Strucan u oblasti blablabla"));
-        arrayList.add(new Doctor(R.drawable.doctor3, "Emma Cosby", "Strucan u oblasti blablabla"));
-        arrayList.add(new Doctor(R.drawable.doctor11, "Bill Summer", "Strucan u oblasti blablabla"));
+        arrayList.add(new Doctor(R.drawable.oft3, "Pankaj Kumar", "Small incision cataract surgery – phacoemulsification including difficult cases Glaucoma diagnosis and management Glaucoma."));
+        arrayList.add(new Doctor(R.drawable.oft1, "Meg Das", "Diabetic Eye Disease and Lasers Macular Degeneration Retinal Vascular disorders"));
+        arrayList.add(new Doctor(R.drawable.oft2, "Alan Mully", "Adult strabismus and double vision. Strabismus surgery including adjustable suture surgery."));
 
         // custom adapter
         DoctorAdapter doctorAdapter = new DoctorAdapter(this, R.layout.list_row, arrayList);

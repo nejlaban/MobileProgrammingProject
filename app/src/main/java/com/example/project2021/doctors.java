@@ -22,9 +22,10 @@ public class doctors extends AppCompatActivity {
 
         ArrayList<Doctor> arrayList = new ArrayList<>();
 
-        arrayList.add(new Doctor(R.drawable.doctor2, "John Fisher", "Strucan u oblasti blablabla"));
-        arrayList.add(new Doctor(R.drawable.doctor3, "Emma Cosby", "Strucan u oblasti blablabla"));
-        arrayList.add(new Doctor(R.drawable.doctor11, "Bill Summer", "Strucan u oblasti blablabla"));
+        arrayList.add(new Doctor(R.drawable.dentist1, "Ross Mansell", "One of the leader doctors in \n orthodontics"));
+        arrayList.add(new Doctor(R.drawable.oft3, "Pankaj Kumar", "Small incision cataract surgery – phacoemulsification including difficult cases Glaucoma diagnosis and management Glaucoma."));
+        arrayList.add(new Doctor(R.drawable.cardio22, "Harper Pollard", "Board Certified by the American Board of Internal Medicine in Cardiovascular Disease and Internal Medicine"));
+        arrayList.add(new Doctor(R.drawable.dentist4, "Isabel Jenkins", "Dr. Nicole Matthews is a general dentist that enjoys offering a variety of dental services to every age group. She is from the New Haven area and a graduate of Washington High School."));
 
         // custom adapter
         DoctorAdapter doctorAdapter = new DoctorAdapter(this, R.layout.list_row, arrayList);

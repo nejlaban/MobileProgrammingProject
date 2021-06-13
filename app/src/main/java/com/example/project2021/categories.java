@@ -45,7 +45,7 @@ public class categories extends AppCompatActivity {
         psychologist.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(com.example.project2021.categories.this, com.example.project2021.psychologists.class));
+                startActivity(new Intent(com.example.project2021.categories.this, com.example.project2021.psychiatrists.class));
             }
         });
 
